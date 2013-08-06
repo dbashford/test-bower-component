@@ -1,7 +1,6 @@
 {
-  "endpoint": "http://localhost:3100",
-  "searchpath": [
-    "http://localhost:3100",
-    "https://bower.herokuapp.com"
-  ]
+  registry:
+   { search: [ 'https://bower.herokuapp.com' , 'http://localhost:3100'],
+     register: 'http://localhost:3100',
+     publish: 'http://localhost:3100' },
 }
