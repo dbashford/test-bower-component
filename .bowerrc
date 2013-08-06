@@ -1,6 +1,6 @@
 {
-  registry:
-   { search: [ 'https://bower.herokuapp.com' , 'http://localhost:3100'],
-     register: 'http://localhost:3100',
-     publish: 'http://localhost:3100' },
+  "registry":
+   { "search": [ "https://bower.herokuapp.com" , "http://berico-bower.herokuapp.com/"],
+     "register": "http://berico-bower.herokuapp.com/",
+     "publish": "http://berico-bower.herokuapp.com/" }
 }
