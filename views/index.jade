@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1 Widget Demo
+
+  h2 Functionality
+  p This widget when constructed attaches itself to a DOM element.
+   | It exposes a send function that allows for updating the content
+   | of the element.
+
+  h2 API
+  ul
+    li contructor: takes the id of a DOM element
+    li send: takes a string, updates the html of the DOM element
+
+  h2 Demo
+  .demo
+    button button
+    br
+    br
+    #widget-div
+
+

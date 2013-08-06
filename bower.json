@@ -1,0 +1,9 @@
+{
+  "name": "libname",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery":"latest",
+    "requirejs":"latest"
+  },
+  "main":["build"]
+}
